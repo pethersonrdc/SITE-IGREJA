@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro da igreja</title>
+    <link rel="icon" href="img/emblema.png">
+    <link rel="stylesheet" href="cadastroigre.css">
+</head>
+<body>
+    <nav>
+        <a href="cadastroigreja.html">Cadastro de Membros</a> |
+        <a href="paginaigreja.html">Conheça a Igreja</a> |
+        <a href="galeriadefotos.html">Galeria de Fotos</a>
+    </nav>
+
+    <form action="https://sheetdb.io/api/v1/m1n7dj586t8g0" method="post" name="cadastroigreja">
+        <h1>Cadastro da Igreja</h1>
+
+        <div class="campodecadastro">
+            <label  class="nomecompleto" for="tx-nomecompleto">Nome Completo:</label><br><br>
+            <input type="text" name="data[nomecompleto]" id="tx-nomecompleto" placeholder="Insira o nome" size="40"><br>
+
+            <label for="tx-datanascimento">Data de Nascimento:</label><br>
+            <input type="text" name="data[datanascimento]" id="tx-datanascimento" placeholder="xx / xx / xxxx" size="10"><br>
+        </div>
+        <div  class="campodecadastro2">
+            <label for="tx-endereco">Endereço:</label><br>
+            <input type="text" name="data[endereco]" id="tx-endereco" placeholder="Insira o endereço" size="40"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="data[email]" id="email" placeholder="Insira o email @xxxx.com.br" size="30"><br>
+        </div> <br>
+
+        <div class="campocargo">
+            <label class="cargo" for="cargo">Selecione seu ministério:</label><br>
+            <select name="data[cargo]" id="cargo">
+                <option disabled value="">Selecione</option>
+                <option>Membro</option>
+                <option>Diácono(a)</option>
+                <option>Presbítero</option>
+                <option>Evangelista</option>
+                <option>Missionário(a)</option>
+                <option>Pastor(a)</option>
+            </select>
+        </div> <br>
+
+        <div class="campoestadocivil">
+            <legend>Estado Civil</legend>
+            <input type="checkbox" name="data[estadocivil]" id="cb-solteiro" value="solteiro"><br>
+            <label for="cb-solteiro">Solteiro</label><br>
+
+            <input type="checkbox" name="data[estadocivil]" id="cb-casado" value="casado">
+            <label for="cb-casado">Casado</label><br>
+
+            <input type="checkbox" name="data[estadocivil]" id="cb-viuvo" value="viuvo">
+            <label for="cb-viuvo">Viúvo(a)</label><br>
+
+            <input type="checkbox" name="data[estadocivil]" id="cb-divorciado" value="divorciado">
+            <label for="cb-divorciado">Divorciado</label><br>
+
+            <input type="checkbox" name="data[estadocivil]" id="cb-amigados" value="amigados">
+            <label for="cb-amigados">Amigados</label><br>
+        </div><br>
+
+        <div class="camposexo">
+            <legend>Selecione o seu Sexo:</legend>
+            <input type="radio" name="data[sexo]" id="ra-feminino" value="F" checked>
+            <label for="ra-feminino">Feminino</label><br>
+
+            <input type="radio" name="data[sexo]" id="ra-masculino" value="M">
+            <label for="ra-masculino">Masculino</label><br>
+        </div><br>
+
+        <div class="campobuttom">
+            <button type="reset"  id="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <footer><br>
+        
+        <p>Cadastro - Dados serão salvos em uma planilha <br>
+        Contato: <a href="mailto:petrdc@yahoo.com.br">petrdc@yahoo.com.br</a>
+        </p>
+    </footer>
+</body>
+</html>
