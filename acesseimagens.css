@@ -1,0 +1,40 @@
+body {
+    background-color:black;
+    background-image: url(../CSS/img/calice.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+.igreja1,.igreja2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+.igreja1 {
+    vertical-align: top;
+    width: 20%;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+.igreja1 img,
+.igreja2 img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    margin: 10px;
+    gap: 0.5rem;
+}
+
+figcaption.text {
+    color: aqua;
+
+}
+
+a{
+    color: bisque;
+}
