@@ -1,7 +1,7 @@
 # SITE-IGREJA
 Esses são os arquivos da pagina
 
-PARTE EM CSS / E COM HTML
+PARTE EM CSS
 
 body {
     background-color: black;
