@@ -1,0 +1,112 @@
+ESSA PARTE ESTA RELACIONADO COM CSS.]
+
+
+  body {
+    background-color: white;
+    background-image: url(../CSS/img/emblema.png);
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+    background-position: center center;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 36%;
+    margin-top: 2%;
+}
+
+h1 {
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    color: black;
+}
+
+select.cargo,input[type=text],
+input[type=email] {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+select:focus {
+    background-color: yellowgreen;
+}
+
+a {
+    color: black;
+}
+
+
+input,#box {
+    width: 100;
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 10px 20px 30px 40px;
+
+}
+
+
+button {
+    padding: 8px;
+    border-radius: 10px 20px 30px 40px;
+    color: blue;
+    
+}
+
+button#reset {
+    color: blue;
+}
+
+.campodecadastro {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left; 
+}
+
+.campodecadastro2 {
+    display: flex;
+    flex-direction: bass line;
+    justify-content: left;
+    align-items: left;
+}
+
+.campodecadastro label,
+.campodecadastro input {
+    margin-right: 10px;
+}
+
+.campodecadastro label {
+    margin-bottom: 5px; 
+}
+
+.campodecadastro input {
+    margin-bottom: 10px; 
+}
+
+
+.campocargo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left; 
+}
+
+.campoestadocivil {
+    display: flex;
+    flex-direction: bass line;
+    justify-content: left;
+    align-items: left; 
+}
+
+.nomecompleto {
+    will-change: 300px;
+    height: 100 px;
+    background-color: aquamarine;
+    border-radius: 10px 20px 30px;
+}
